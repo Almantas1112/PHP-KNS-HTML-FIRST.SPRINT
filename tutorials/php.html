@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is first HTML sprint">
+    <title>HTML First Sprint</title>
+    <link rel="stylesheet" href="../style.css">
+
+    <!-- OG -->
+    <meta property="og:title" content="HTML first sprint">
+    <meta property="og:description" content="This is first HTML project (first sprint)">
+    <meta property="og:image" content="../img/OGimg.jfif">
+
+    <!-- twitter OG -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="HTML first sprint">
+    <meta name="twitter:description" content="This is first HTML project (first sprint)">
+    <meta name="twitter:image" content="../img/OGimg.jfif">
+
+    <!-- google analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WFN1V57K0P"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-WFN1V57K0P');
+    </script>
+</head>
+<body>
+    <nav>
+        <div class="links">
+            <a href="../main.html" id="home">Home Page</a>
+            <a href="javascript:about()">About</a>
+            <a href="mailto:almantas1112@gmail.com">Contacts</a>
+        </div>
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/almantas-anciūnas-140008232/" target="_blank"><img src="../img/LinkedIn.png" alt="LinkedIn"></a>
+            <a href="https://github.com/Almantas1112" target="_blank"><img src="../img/Git.png" alt="GitHub"></a>
+            <a href="https://stackoverflow.com/users/18204982/almantas-anciunas" target="_blank"><img src="../img/Stackoverflow.png" alt="StackOverflow"></a>
+        </div>
+    </nav>
+    <div class="section">
+        <section>
+            <h1>This Is My Blog Page!</h1>
+            <div class="box">
+                <div class="video"><i>PHP(tags) lesson</i></div>
+                    <hr class="line">
+                    <div class="tags">
+                        <img src="../img/PHP.png" alt="PHP" id="phpL"><br>
+                        <p>Let's talk about PHP tags:</p>
+                        <p>in HTML we have <span>&lt;head&gt;</span> and <span>&lt;body&gt;</span> tags
+                        in php we have <span>&lt;?php?&gt;</span> tag and for example it looks like this</p>
+                        <span><p>
+                            &lt;?php
+                            php code
+                            php code
+                            ?&gt;
+                        </p></span>
+                        <p>Let's have a look in real example:</p>
+                        <p><span>&lt;?php echo 'PHP tag'; ?&gt;</span>
+                        
+                        <span>&lt;?php</span> is open tag for PHP and <span>?&gt;</span> is for closing tag
+                        <span>echo</span> means that we want to write something, for example we use <span>&lt;p&gt;Something&lt;/p&gt;</span> in HTML
+                        and for PHP we use <span>echo</span>
+                        <span>'PHP tag'</span> what we want to write in this message and command should always end with <span>;</span></p>
+                    </div>
+            </div>
+        </section>
+    </div>
+        <footer>
+            This page is created for education purposes!
+        </footer>
+
+        <script>
+            function about() {
+                alert("This is my blog page!\n\nThis page create for education purposes!\n\nThis is my first Javascript! Hurray!!!\n\nThis is kind of responsive blog, there is zoom in/zoom out bug, sorry...")
+            }
+        </script>
+</body>
+</html>

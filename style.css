@@ -1,0 +1,246 @@
+body{
+    background-image: url(/img/background.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+nav {
+    border: rgba(226, 8, 8, 0.267);
+    height: 15%;
+    background-color: rgba(226, 8, 8, 0.267);
+    border-radius: 10px;
+    position: relative;
+}
+
+div.links a {
+    text-decoration: none;
+    color: rgb(173, 171, 171);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 2%;
+}
+
+#home {
+    letter-spacing: -0.7px;
+}
+
+.links {
+    position: absolute;
+    margin-left: 10%;
+    width: 50%;
+    font-size: 25px;
+}
+
+.icons img {
+    height: 30px;
+    margin: auto;
+    display: inline;
+    margin-top: 0.8%;
+}
+
+div.icons {
+    position: relative;
+    margin-left: 75%;
+    letter-spacing: 20px;
+}
+
+div.links a:hover {
+    color: rgb(133, 131, 131);
+    text-shadow: 3px 3px rgb(70, 70, 70);
+}
+
+.icons img:hover {
+    box-shadow: 3px 3px rgb(70, 70, 70);
+}
+
+div.section {
+    height: auto;
+    position: relative;
+    background-color: rgba(226, 8, 8, 0.267);
+    display: block;
+    color: aqua;
+    text-align: center;
+    border-radius: 5px;
+    text-shadow: 1px 1px black;
+    font-size: 20px;
+    /* padding-bottom: 100%; */
+}
+
+/* div.section section div.box {
+    background-color: rgba(226, 8, 8, 0.290);
+    padding: 30%;
+    width: 38%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border-color: rgba(226, 8, 8, 0.290);
+    position: relative;
+} */
+
+div.box {
+    background-color: rgba(226, 8, 8, 0.290);
+    /* padding: 30%; */
+    padding-bottom: 100%;
+    padding-right: 60%;
+    width: 40%;
+    border-radius: 5px;
+    border-color: rgba(226, 8, 8, 0.290);
+    position: relative;
+    height: auto;
+}
+
+div.video {
+    position: absolute;
+    top: 0.5%;
+    width: 100%;
+    left: 0;
+    color: rgba(0, 0, 255, 0.397);
+    font-size: 25px;
+    font-family: cursive;
+    height: auto;
+}
+
+hr.line { 
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 40px;
+    height: 5px;
+    background-color: rgba(0, 0, 255, 0.397);
+    border-color: rgba(0, 0, 255, 0.397);
+}
+
+hr.line2 { 
+    position: absolute;
+    left: 0;
+    width: 100%;
+    margin-top: 1000px;
+    height: 5px;
+    background-color: rgba(0, 0, 255, 0.397);
+    border-color: rgba(0, 0, 255, 0.397);
+}
+
+div.player {
+    position: absolute;
+    /* background-color: black; */
+    width: 100%;
+    height: 50%;
+    left: 0;
+    top: 80px;
+}
+
+div.lesson1 {
+    left: 0;
+    position: relative;
+    width: 100%;
+    height: 25%;
+}
+
+iframe {
+    width: 25%;
+    height: 100%;
+}
+
+/* Lesson2 */
+
+div.player2 {
+    position: absolute;
+    /* background-color: black; */
+    width: 100%;
+    height: 50%;
+    left: 0;
+    top: 370px;
+}
+
+div.lesson2 {
+    left: 0;
+    position: relative;
+    width: 100%;
+    height: 25%;
+}
+
+/* Lesson3 */
+
+div.player3 {
+    position: absolute;
+    /* background-color: black; */
+    width: 100%;
+    height: 50%;
+    left: 0;
+    top: 650px;
+}
+
+div.lesson3 {
+    left: 0;
+    position: relative;
+    width: 100%;
+    height: 25%;
+}
+
+footer {
+    position: absolute;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    width: 99.1%;
+}
+
+div.tutorials {
+    display: inline-block;
+    width: 50%;
+    height: 10%;
+    /* background-color: black; */
+    position: relative;
+    left: 1px;
+}
+
+aside {
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    margin-top: 300%;
+    /* background-color: black; */
+    width: 100%;
+    text-align: center;
+}
+
+#aside0 {
+    margin-left: 100%;
+    font-size: 25px;
+    text-shadow: 4px 4px black;
+}
+
+#aside1 {
+    margin-left: -50%;
+    /* margin-top: 10%; */
+}
+
+#aside2 {
+    margin-left: 100%;
+}
+
+#aside3 {
+    margin-left: 270%;
+}
+
+span {
+    color: black;
+}
+
+div.tags {
+    position: absolute;
+    top: 10%;
+    max-width: 75%;
+    padding-left: 15rem;
+}
+
+div.tags img{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-top: -25%;
+}
+
+#phpL {
+    width: 150px;
+}

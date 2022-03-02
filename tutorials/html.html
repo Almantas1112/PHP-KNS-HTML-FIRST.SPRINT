@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is first HTML sprint">
+    <title>HTML First Sprint</title>
+    <link rel="stylesheet" href="../style.css">
+
+    <!-- OG -->
+    <meta property="og:title" content="HTML first sprint">
+    <meta property="og:description" content="This is first HTML project (first sprint)">
+    <meta property="og:image" content="../img/OGimg.jfif">
+
+    <!-- twitter OG -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="HTML first sprint">
+    <meta name="twitter:description" content="This is first HTML project (first sprint)">
+    <meta name="twitter:image" content="../img/OGimg.jfif">
+
+    <!-- google analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WFN1V57K0P"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-WFN1V57K0P');
+    </script>
+</head>
+<body>
+    <nav>
+        <div class="links">
+            <a href="../main.html" id="home">Home Page</a>
+            <a href="javascript:about()">About</a>
+            <a href="mailto:almantas1112@gmail.com">Contacts</a>
+        </div>
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/almantas-anciūnas-140008232/" target="_blank"><img src="../img/LinkedIn.png" alt="LinkedIn"></a>
+            <a href="https://github.com/Almantas1112" target="_blank"><img src="../img/Git.png" alt="GitHub"></a>
+            <a href="https://stackoverflow.com/users/18204982/almantas-anciunas" target="_blank"><img src="../img/Stackoverflow.png" alt="StackOverflow"></a>
+        </div>
+    </nav>
+    <div class="section">
+        <section>
+            <h1>This Is My Blog Page!</h1>
+            <div class="box">
+                <div class="video"><i>HTML(tags) lesson</i></div>
+                    <hr class="line">
+                    <div class="tags">
+                        <img src="../img/HTML.png" alt="HTML"><br>
+                        First of all let's talk about formating new HTML file:
+                        If you using <i>Visual Studio code</i> (don't know if any editors do the same thing)
+                        create new file and call it index.html, then in first line press ! or !!!
+                        If you pressed ! symbol you will get code like this:
+                        <span><p>
+                        &lt;!DOCTYPE html&gt;
+                        &lt;html lang=&quot;en&quot;&gt;
+                        &lt;head&gt;
+                        &lt;meta charset=&quot;UTF-8&quot;&gt;
+                        &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
+                        &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+                        &lt;title&gt;Document&lt;/title&gt;
+                        &lt;/head&gt;
+                        &lt;body&gt;
+                        </p><p>
+                        &lt;/body&gt;
+                        &lt;/html&gt;
+                        </span>
+                        </p><p>
+                        First line shows document type
+                        Second line shows html code language
+                        third line gives <span>&lt;head&gt;</span> tag which contains information like:
+                        meta charset UTF-8 (means that it is newest charset for programming in HTML, finds all languages symbols like Ą,Č and so on)
+                        meta name viewport contains responsivity it means html site will be compactible in mobile phones, tablets and computers
+                        <span>&lt;title&gt;Document&lt;/title&gt;</span> contains your tab name
+                        Then we have <span> &lt;body&gt;</span> tag.
+                        In this we can write all data like javascript, divs and so on.
+                        </p>
+                    </div>
+            </div>
+        </section>
+    </div>
+        <footer>
+            This page is created for education purposes!
+        </footer>
+
+        <script>
+            function about() {
+                alert("This is my blog page!\n\nThis page create for education purposes!\n\nThis is my first Javascript! Hurray!!!\n\nThis is kind of responsive blog, there is zoom in/zoom out bug, sorry...")
+            }
+        </script>
+</body>
+</html>
